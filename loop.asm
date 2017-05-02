@@ -1,6 +1,5 @@
+assume cs:code
 code segment
-  assume cs:code
-start:
   mov ax, 2
   mov cx, 11
 s:
@@ -9,4 +8,4 @@ s:
   mov ax, 4c00h
   int 21h
 code ends
-end start
+end
