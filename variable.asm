@@ -9,7 +9,11 @@ wd1 WORD 10
 dw1 DWORD 100
 dw2 DWORD 789
 
-str1 BYTE "This is a stirng", 0
+sw1 SDWORD -12
+byteArr BYTE 20 DUP(0)
+byteArrLen = ($-byteArr)
+
+str1 BYTE "This is a string", 0
 strlen = ($-str1)-1
 
 .code
@@ -18,6 +22,9 @@ main proc
 	mov ax, wd1
 	mov eax, dw1
 	add eax, dw2
+
+	mov eax, byteArrLen
+	add eax, strlen
 
 	invoke ExitProcess,0
 main endp
