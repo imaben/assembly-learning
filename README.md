@@ -4,3 +4,4 @@
 - [add](add.asm)
 - [loop](loop.asm)
 - [variable](variable.asm)
+- [operator](operator.asm)
