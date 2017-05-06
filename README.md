@@ -7,3 +7,4 @@
 - [operator](operator.asm)
 - [stack](stack.asm)
 - [subroutine](subroutine.asm)
+- [logical](logical.asm)
