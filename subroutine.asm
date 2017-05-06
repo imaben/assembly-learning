@@ -18,7 +18,13 @@ main endp
 myproc proc
 	add eax, ebx
 	add eax, ecx
+	call myproc2
 	ret
 myproc endp
+
+myproc2 proc
+	add eax, eax
+	ret
+myproc2 endp
 
 end main
