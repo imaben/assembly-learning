@@ -38,6 +38,10 @@ main proc
 	mov ebx, 0
 	XOR eax, ebx
 
+	; TEST
+	mov eax, 1010b
+	test eax, 10b
+
 	INVOKE ExitProcess, 0
 main endp
 

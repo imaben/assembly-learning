@@ -9,3 +9,4 @@
 	- [stack](stack.asm)
 	- [subroutine](subroutine.asm)
 	- [logical](logical.asm)
+	- [compare](compare.asm)
