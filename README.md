@@ -10,3 +10,4 @@
 	- [subroutine](subroutine.asm)
 	- [logical](logical.asm)
 	- [compare](compare.asm)
+	- [conditional-jumps](conditional-jumps.asm)
