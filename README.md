@@ -1,13 +1,16 @@
 # assembly-learning
 
 - Basic
-	- [hello](hello.asm)
-	- [add](add.asm)
-	- [loop](loop.asm)
-	- [variable](variable.asm)
-	- [operator](operator.asm)
-	- [stack](stack.asm)
-	- [subroutine](subroutine.asm)
-	- [logical](logical.asm)
-	- [compare](compare.asm)
-	- [conditional-jumps](conditional-jumps.asm)
+	- [hello](basic/hello.asm)
+	- [add](basic/add.asm)
+	- [loop](basic/loop.asm)
+	- [variable](basic/variable.asm)
+	- [operator](basic/operator.asm)
+	- [stack](basic/stack.asm)
+	- [subroutine](basic/subroutine.asm)
+	- [logical](basic/logical.asm)
+	- [compare](basic/compare.asm)
+	- [conditional-jumps](basic/conditional-jumps.asm)
+
+- Application
+	- [finite-state machine](app/fsm.asm)
