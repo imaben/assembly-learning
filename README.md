@@ -11,7 +11,7 @@
 	- [logical](basic/logical.asm)
 	- [compare](basic/compare.asm)
 	- [conditional-jumps](basic/conditional-jumps.asm)
-	- [shirt](basic/shift.asm)
+	- [shift](basic/shift.asm)
 
 - Application
 	- [finite-state machine](app/fsm.asm)
