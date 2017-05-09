@@ -5,6 +5,7 @@
 	- [add](basic/add.asm)
 	- [loop](basic/loop.asm)
 	- [variable](basic/variable.asm)
+	- [array](basic/array.asm)
 	- [operator](basic/operator.asm)
 	- [stack](basic/stack.asm)
 	- [subroutine](basic/subroutine.asm)
