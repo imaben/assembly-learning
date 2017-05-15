@@ -11,6 +11,9 @@ string2 BYTE 32
 word1 WORD 20 DUP(0FFFFFFFh)
 word2 WORD 20 DUP(?)
 
+dword1 DWORD 20 DUP(0FFFFFFFh)
+dword2 DWORD 20 DUP(?)
+
 .code
 main proc
 	; byte copy
@@ -25,6 +28,13 @@ main proc
 	mov esi, OFFSET word1
 	mov edi, OFFSET word2
 	mov ecx, LENGTHOF word1
+	rep movsw
+
+	; dword copy
+	cld
+	mov esi, OFFSET dword1
+	mov edi, OFFSET dword2
+	mov ecx, LENGTHOF dword1
 	rep movsd
 
 	invoke ExitProcess,0
