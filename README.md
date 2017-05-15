@@ -16,6 +16,7 @@
 
 - Advanced
 	- [stack-frame](advanced/stack-frame.asm)
+	- [string](advanced/string.asm)
 
 - Application
 	- [finite-state machine](app/fsm.asm)
